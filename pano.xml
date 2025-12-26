@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node1" appversion="7.1.5" hassounds="1" apprev="20954">
+  <panorama id="node1">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="2359" height="2359" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="2359" preload="0" predecode="0" width="2359"/>
+      <level height="1179" preload="0" predecode="0" width="1179"/>
+      <level height="589" preload="0" predecode="0" width="589"/>
+      <level height="294" preload="1" predecode="1" width="294"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start projection="4" pan="-5.32" tilt="13.07" fov="91.84"/>
+      <flyin projection="9" pan="-3.17" tilt="-84.43" fov="294.79"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" tilt="360" fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata author="魏梦勤" nodeid="node1" info="" description="" tags="20234040302092" datetime="2025/12/16 2:15" heading="0" longitude="112.193520" latitude="31.029286" comment="" copyright="" title="公园正大门" customnodeid="" source=""/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" height="20" textalpha="1" background="1" width="180" enabled="1" borderalpha="1" borderradius="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot id="百度百科" pan="-6.87" tilt="23.14" title="龙泉公园百度百科" description="点我了解公园历史" target="_blank" url="https://baike.baidu.com/item/%E9%BE%99%E6%B3%89%E5%85%AC%E5%9B%AD/6035264#" skinid="网址"/>
+      <hotspot distance="173.993" pan="-6.5" tilt="-3.61" description="" url="{node2}" skinid="导览节点" id="石头路口" title="石头路口" target="$fwd"/>
+      <hotspot id="Point01" pan="-7.04" tilt="30.76" title="2023404030209魏梦勤" description="" target="" url="" skinid="图像"/>
+    </hotspots>
+    <media>
+      <video popoutscaling="100" handcursor="1" loop="1" hidepinned="0" pan="22.250" tilt="5.610" popbackmode="0" tiltsize="10.000" rotz="12.160" height="720" ambientlevel="0.000" clickmode="4" nodechangekeep="0" pansize="10.000" startmutedmobile="0" roty="-54.520" stretch="0.507" width="1280" id="宣传视频" mode="4" fov="13.380" rotx="11.160" field="90.000" level="1.000">
+        <source url="media/video.mp4"/>
+      </video>
+      <sound field="90.000" startmutedmobile="0" loop="1" pan="-1.000" tilt="-1.000" tiltsize="10.000" id="_background" ambientlevel="0.000" mode="0" nodechangekeep="1" level="1.000" pansize="10.000">
+        <source mono="0" url="media/sound-1.mp3"/>
+        <source mono="0" url="media/sound-1.mp3"/>
+      </sound>
+    </media>
+    <transition delay="none" zoomspeed="2" zoomfov="40" blendcolor="0x000000" zoomin="0" zoomafterinfov="140" zoomout="0" blendtime="1" softedge="0" zoomoutpause="1" enabled="1" zoomafteroutfov="40" type="crossdissolve"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01"/>
+    <control contextprojections="0" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" hideabout="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" speedwheel="1" simulatemass="1" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelbias="0.400" overlap="1" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingpitch="0" width="5353" height="5353" levelingroll="0" leveltilesize="510" levelbiashidpi="1.000">
+      <level height="5353" preload="0" predecode="0" width="5353"/>
+      <level height="2676" preload="0" predecode="0" width="2676"/>
+      <level height="1338" preload="0" predecode="0" width="1338"/>
+      <level height="669" preload="0" predecode="0" width="669"/>
+      <level height="334" preload="1" predecode="1" width="334"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="2">
+      <start projection="4" pan="0.12" tilt="0.1" fov="91.35"/>
+      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
+      <min fovpixel="2" pan="0" tilt="-90"/>
+      <max pan="360" tilt="90" fov="140" fovstereographic="330" scaletofit="1" fovfisheye="360"/>
+    </view>
+    <userdata author="魏梦勤" nodeid="node2" info="" description="" tags="20234040302092" datetime="2025/12/16 3:07" heading="0" longitude="112.191694" latitude="31.029298" comment="" copyright="" title="石头路口" customnodeid="" source=""/>
+    <hotspots height="20" smoothmovement="0" wordwrap="1" width="180">
+      <label backgroundalpha="1" border="1" backgroundcolor="0xffffff" wordwrap="1" bordercolor="0x000000" height="20" textalpha="1" background="1" width="180" enabled="1" borderalpha="1" borderradius="1" textcolor="0x000000"/>
+      <polystyle handcursor="1" backgroundalpha="0.25098" backgroundcolor="0x0000ff" mode="0" borderalpha="1" bordercolor="0x0000ff"/>
+      <hotspot distance="173.993" pan="-180.21" tilt="0.68" description="" url="{node1}" skinid="导览节点" id="出口" title="出口" target="$fwd"/>
+    </hotspots>
+    <media>
+      <image handcursor="1" roty="0.510" stretch="1.694" hidepinned="0" pan="-2.070" tilt="-3.220" popbackmode="0" width="700" rotz="1.970" id="石头介绍" height="350" clickmode="4" fov="3.380" rotx="68.270" popoutscaling="100">
+        <source url="media/2.jpg"/>
+      </image>
+      <sound field="90.000" startmutedmobile="0" loop="0" pan="-321.260" tilt="20.750" tiltsize="10.000" id="背景乐" ambientlevel="0.000" mode="3" nodechangekeep="0" level="1.000" pansize="10.000">
+        <source mono="0" url="media/sound-1.mp3"/>
+      </sound>
+      <sound field="90.000" startmutedmobile="0" loop="1" pan="-1.000" tilt="-1.000" tiltsize="10.000" id="_background" ambientlevel="0.000" mode="0" nodechangekeep="1" level="1.000" pansize="10.000">
+        <source mono="0" url="media/sound-1.mp3"/>
+      </sound>
+    </media>
+    <transition delay="none" zoomspeed="2" zoomfov="40" blendcolor="0x000000" zoomin="0" zoomafterinfov="140" zoomout="0" blendtime="1" softedge="0" zoomoutpause="1" enabled="1" zoomafteroutfov="40" type="crossdissolve"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" clipsrandom="0" animsequence="Animation01"/>
+    <control contextprojections="0" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" contextvr="1" hideabout="0" invertcontrol="1" contextfullscreen="1" invertwheel="0" dblclickfullscreen="0" speedwheel="1" simulatemass="1" zoomcentercursor="1" sensitivity="8" lockedkeyboard="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" comment="" copyright="" title="" description="" tags=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>
